@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+@font-face {
+    font-family: 'playfair';
+    src: url(fonts/Playfair_Display/PlayfairDisplay-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: 'roboto';
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+#logo{
+    font-family: 'playfair';
+}
+.navbar-nav{
+    font-family: 'roboto';
+}
+
+#heading{
+    font-family: 'playfair';
+    color: white;
+    /* margin: 0px 0px 48px; */
+    width: 526px;
+    margin-top: 130px;
+    font-weight: bolder;
+    font-size: 50px;
+    margin-left: auto;
+}
+#heading2{
+    color: #B8B8B8;
+    margin-left: auto;
+    width: 526px;
+    margin-top: 60px;
+    font-family: 'roboto';
+}
+  
+
+#main {
+    background: url('images/background.jpg') center center fixed no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background: transparent;
+    z-index: 1000;
+}
+a{
+    color: white;
+}
+.nav-item a{
+    color: white;
+}
+#button1{
+    color: white;
+    background-color: blueviolet;
+    width: 160px;
+    height: 53px;
+    font-family: 'roboto';
+    border: none;
+}
+#button2{
+    color: white;
+    background-color: transparent;
+    width: 160px;
+    height: 53px;
+    margin-left: 15px;
+    font-family: 'roboto';
+    border: 1px solid white;
+}
+#button-div{
+    display: flex;
+    margin-left: auto;
+    margin-right: 190px;
+    margin-top: 15px;
+}
