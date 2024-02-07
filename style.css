@@ -19,18 +19,18 @@
     font-family: 'roboto';
 }
 
-#heading{
+.heading{
     font-family: 'playfair';
     color: white;
     /* margin: 0px 0px 48px; */
-    width: 526px;
-    margin-top: 130px;
+    /* width: 526px; */
+    /* margin-top: 130px; */
     font-weight: bolder;
     font-size: 50px;
     margin-left: auto;
 }
 #heading2{
-    color: #B8B8B8;
+    color: gainsboro;
     margin-left: auto;
     width: 526px;
     margin-top: 60px;
@@ -41,7 +41,8 @@
 #main {
     background: url('images/background.jpg') center center fixed no-repeat;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover !important;
+    width: 100% !important;
     height: 100vh; 
     display: flex;
     flex-direction: column;
@@ -50,33 +51,62 @@
 .navbar {
     background: transparent;
     z-index: 1000;
+    color: white;
 }
 a{
     color: white;
 }
-.nav-item a{
+.navbar-toggler-icon {
     color: white;
 }
-#button1{
-    color: white;
+.navbar-toggler-icon:after {
+    top: 26px;
+}
+.navbar-toggler-icon::after{
+        background: #fff;
+    
+}
+
+.btn{
     background-color: blueviolet;
-    width: 160px;
-    height: 53px;
-    font-family: 'roboto';
-    border: none;
+    width: 150px;
+
 }
-#button2{
-    color: white;
+#btn2{
     background-color: transparent;
-    width: 160px;
-    height: 53px;
-    margin-left: 15px;
-    font-family: 'roboto';
+    color: white;
     border: 1px solid white;
 }
-#button-div{
+#para{
+    color: antiquewhite !important;
+}
+#heading1{
+    margin-left: 10px;
+    font-size: 45px;
+}
+#button1{
+    width: 150px;
+}
+.HEADING2{
+    width: 70%;
+    padding-left: 10px;
+    color: antiquewhite;
+    font-family: 'rbooto';
+    font-size: 14px;
+}
+.heading2{
+
+        width: 70%;
+        padding-left: 10px;
+        color: antiquewhite;
+        font-family: 'rbooto';
+        font-size: 14px;
+}
+#MAIN2{
     display: flex;
-    margin-left: auto;
-    margin-right: 190px;
-    margin-top: 15px;
+    
+}
+#img1{
+    width: 456px;
+    height: 456px;
 }
