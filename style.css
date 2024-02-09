@@ -219,6 +219,182 @@ a{
     margin-left: 30px;
     margin-top: 30px;
 }
+#main5{
+    background-color: rgba(0, 0, 0, 0.918);
+}
+#main5 h1 {
+    color: white;
+    font-family: 'playfair';
+    margin-left: 90px;
+    margin-bottom: 70px;
+}
+#table1{
+    border: 3px solid #151515;
+    /* width: 250px; */
+    /* margin-left: 5px; */
+    background-color: rgba(0, 0, 0, 0.822);
+}
+th{
+    color: white;
+}
+#main6{
+    padding: 70px;
+    /* border: 10px solid black; */
+    /* display: flex; */
+}
+#main5 h1{
+    padding-top: 10px;
+}
+#card-3{
+    display: flex;
+    flex-wrap: wrap;
+}
+#td3{
+    height: 100px;
+    width: 40px;
+    /* border: 1px solid white; */
+}
+#td1{
+    width: 50px;
+    height: 80px;
+    padding-left: 10px;
+    color: white;
+}
+#th{
+    color: white;
+}
+#card-3{
+    /* border: 1px solid black; */
+    /* width: 945px; */
+    display: flex;
+    justify-content: center;
+}
+#td2{
+    padding-left: 10px;
+    padding-bottom: 10px;
+    color: white;
+}
+#table1:hover{
+    background-color: blueviolet;
+}
+.chattings{
+    display: flex;
+    padding-top: 10px;
+    /* border: 1px solid black; */
+}
+.profile img{
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+}
+.chattings1{
+    background-color: blueviolet;
+    display: flex;
+    /* border: 1px solid black; */
+}
+#he3{
+    color: brown;
+}
+.chat-name h3{
+    color: blueviolet;
+}
+.chat-name h5{
+    color: brown;
+}
+.chattings1 .chat-name h3{
+    color: white !important;
+}
+.chattings1 .chat-name h5{
+    color: white !important;
+}
+.chat-name{
+    margin-left: 20px;
+    font-family: 'roboto';
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#pre-main{
+    background-color: #151515;
+}
+#pre-main h1{
+    margin-bottom: 100px;
+    padding-top: 80px;
+    color: white;
+    font-family: 'playfair';
+    margin-left: 90px;
+}
+#main7{
+    display: flex;
+    width: 100%;
+}
+#main8{
+    width: 35%;
+    margin-left: 90px;
+    margin-right: auto;
+}
+#main9{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: 'roboto';
+}
+#main10{
+    background-color: #151515;
+    width: 100%;
+    margin-bottom: 0px;
+}
+#main10 h1{
+    color: white;
+    font-family: 'playfair';
+    padding-top: 180px;
+    margin-left: 100px;
+}
+#main10 h5{
+    color: rgba(165, 42, 42, 0.406);
+    font-family: 'roboto';
+    margin-left: 100px;
+    margin-right: 90px;
+    margin-top: 60px;
+}
+ul{
+    list-style-image: url(images/tick.png);
+    margin: 0;
+    padding: 0;
+}
+#bg{
+    background-color: #151515;
+}
+#main11{
+    background-color: #151515;
+    display: flex;
+    margin-top: 0px;
+    margin: 100px;
+    /* border: 1px solid wheat; */
+    padding: 30px;
+    margin-bottom: 0px;
+    margin-top: 40px;
+}
+#main11-1{
+    margin-left: 40px;
+    width: 50%;
+    color: brown;
+    text-decoration: underline;
+    font-size: 18pt;
+    
+}
+#main11-2{
+    margin-left: 40px;
+    width: 50%;
+    color: brown;
+    text-decoration: underline;
+    font-size: 18pt;
+    padding-right: 30px;
+}
+li:hover{
+    text-decoration: none;
+    color: whitesmoke;
+}
 @media screen and (max-width: 768px) {
     #card-1{
         height: 440px;
@@ -244,5 +420,143 @@ a{
     #main4{
         display: flex;
         flex-direction: column;
+    }
+    #main4-row2{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    #main4-row2 h2{
+        margin: 0;
+        margin-left: 50px;
+        margin-right: auto;
+        margin-top: 70px;
+        padding: 0;
+    }
+    #main4-row2 p{
+        margin: 0;
+        margin-left: 50px;
+        margin-right: auto;
+        margin-top: 40px;
+
+    }
+    #main4-row1 h1{
+        font-size: 26pt;
+        margin-left: 50px;
+        margin-right: auto;
+    }
+    #main4-row1 img{
+        width: 80%;
+        padding-right: auto;
+        margin-left: 50px;
+    }
+    #main4-row1{
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    .col-md-6{
+        width: 250px;
+    }
+    #main7{
+        display: flex;
+        flex-direction: column;
+    }
+    #main8{
+        width: 90%;
+        margin-left: 30px;
+    }
+    #main9{
+        width: 85%;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    #main10 h1{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    #main10 h5{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    #main11{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-left: 10px;
+    }
+    #main11-1{
+        margin: 0;
+        padding: 0;
+        margin-left: 30px;
+        width: 100%;
+    }
+    #main11-2{
+        margin: 0;
+        padding: 0;
+        margin-left: 30px;
+        padding-top: 90px;
+        width: 100%;
+    }
+
+
+
+}
+@media screen and (max-width: 576px){
+    #img1{
+        width: 200%;
+    }
+    .pic-img{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #MAIN2{
+        display: flex;
+        flex-direction: column;
+    }
+    #card-3{
+        justify-content: center;
+        align-items: center;
+    }
+    #main7{
+        display: flex;
+        flex-direction: column;
+    }
+    #main7{
+        display: flex;
+        flex-direction: column;
+    }
+    #main8{
+        width: 90%;
+        margin-left: 30px;
+    }
+    #main9{
+        width: 85%;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    #main11{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        margin-left: 10px;
+    }
+    #main11-1{
+        margin: 0;
+        padding: 0;
+        margin-left: 10px;
+        /* width: 90%; */
+    }
+    #main11-2{
+        margin: 0;
+        padding: 0;
+        margin-left: 10px;
+        padding-top: 90px;
+        /* width: 90%; */
     }
 }
