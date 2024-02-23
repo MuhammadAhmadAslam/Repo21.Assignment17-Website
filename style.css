@@ -709,8 +709,15 @@ a:hover{
         padding: 0;
     }
 
-
-
+.navbar-nav .nav-link:hover {
+    color: white !important;
+}
+.nav-link:hover{
+    color: white !important;
+}
+#nav-menu:hover{
+    color: white !important;
+}
 }
 @media screen and (max-width: 576px){
     #img1{

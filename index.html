@@ -6,10 +6,8 @@
     <title>Health vest Website</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
         <!-- the nav bar started -->
@@ -17,7 +15,7 @@
 
 
 <div id="main" style="background: url(images/background.jpg); ">
-        <nav class="navbar navbar-expand-lg "  style="background: transparent; ">
+        <nav class="navbar navbar-expand-lg "  style="background: transparent; " data-aos="fade-down">
           <div class="container-fluid">
               <a class="navbar-brand mt-4 mb-2 ms-5" href="#" id="logo">Solicitor</a>
               <div class="order-lg-2 ml-auto d-flex align-items-center mt-4 mb-2 ml-md-auto ml-sm-auto"><img src="images/call.png" alt="img" style="width: 30px; height: 30px;">123-456-789</div>
@@ -26,11 +24,11 @@
               </button>
               <div class="collapse navbar-collapse order-lg-1" id="navbarNavDropdown">
                   <ul class="navbar-nav mt-4 mb-2" style="margin-left: auto; margin-right: auto;">
-                      <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                      <li class="nav-item " id="nav-menu">
+                          <a class="nav-link active" id="nav-menu" aria-current="page" href="#">Home</a>
                       </li>
                       <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          <a class="nav-link dropdown-toggle" id="nav-menu" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                               Practicing Area
                           </a>
                           <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
@@ -71,12 +69,11 @@
         <div class="container">
             <div class="row align-items-center">
             <div class="col-lg-5 text-start ms-auto">
-            <h1 class="heading mb-5 animate__animated animate__bounceInUp
-            " data-aos="fade-up">Meet all your investigative and litigation needs</h1>
-            <p class="mb-5 text-white-50 animate__animated animate__bounceInUp" data-aos="fade-up" data-aos-delay="300" id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim pariatur similique debitis vel nisi qui reprehenderit totam? Quod maiores.</p>
+            <h1 class="heading" data-aos="fade-right">Meet all your investigative and litigation needs</h1>
+            <p class="mb-5 text-white-50 " data-aos="fade-right" data-aos-delay="300" id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam enim pariatur similique debitis vel nisi qui reprehenderit totam? Quod maiores.</p>
             <p data-aos="fade-up" data-aos-delay="400">
-            <a href="#" class="btn btn-primary has-arrow animate__animated animate__bounceInUp " >Our services&nbsp;&nbsp;&nbsp;><span class="icon-keyboard_arrow_right"></span></a>
-            <a href="#" class="btn btn-outline-white has-arrow animate__animated animate__bounceInUp" id="btn2">Contact us&nbsp;&nbsp;&nbsp;> <span class="icon-keyboard_arrow_right"></span></a>
+            <a href="#" class="btn btn-primary has-arrow " data-aos="fade-right">Our services&nbsp;&nbsp;&nbsp;><span class="icon-keyboard_arrow_right"></span></a>
+            <a href="#" class="btn btn-outline-white has-arrow " data-aos="fade-right" id="btn2">Contact us&nbsp;&nbsp;&nbsp;> <span class="icon-keyboard_arrow_right"></span></a>
             </p>
             </div>
             </div>
@@ -87,15 +84,15 @@
         <!-- the second main is startinng --><!-- the second main is startinng --><!-- the second main is startinng -->
       <div id="bg">
       <div class="container-fluid " style="background-color: #0F0F11; font-family: 'playfair';" id="MAIN2">
-        <div class="row d-flex  flex-column"  id="row1">
-            <h1 class="text-white animate__animated animate__bounceInUp" id="heading1">I'm Jon Campbell</h1>
-            <h5 class="HEADING2 animate__animated animate__bounceInUp">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</h5>
-            <h5 class="heading2 animate__animated animate__bounceInUp">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</h5>
-            <button id="button1" class="animate__animated animate__bounceInUp">Our Services&nbsp;&nbsp;&nbsp;&nbsp;></button>
+        <div class="row d-flex  flex-column"  id="row1" data-aos="fade-down-left">
+            <h1 class="text-white " id="heading1">I'm Jon Campbell</h1>
+            <h5 class="HEADING2 ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</h5>
+            <h5 class="heading2">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</h5>
+            <button id="button1" class="">Our Services&nbsp;&nbsp;&nbsp;&nbsp;></button>
         </div>
-        <div class="pic-img">
+        <div class="pic-img" >
           
-            <img src="images/background.jpg" alt="img" id="img1">
+            <img src="images/background.jpg" alt="img" id="img1" data-aos="flip-right">
             <div id="dummy">
             </div>
         </div>
@@ -110,7 +107,7 @@
     <h1 id="heading4">OUR SERVICES</h1>
     <div class="row" >
        
-        <div  id="card-1" class="col-lg-4 col-md-6 col-sm-12 ms-md-auto me-md-auto animate__animated animate__bounceInUp">
+        <div  id="card-1" data-aos="flip-right" class="col-lg-4 col-md-6 col-sm-12 ms-md-auto me-md-auto animate__animated animate__bounceInUp">
             <div class="circle">
             <img src="images/justice.png" alt="img" style="width: 40px; height: 40px; margin-top: 10px; margin-left: 10px;">
         </div>
@@ -121,7 +118,7 @@
         </div>
 
 
-        <div  id="card-1" class="col-lg-4 col-md-6 col-sm-12 ms-md-auto me-md-auto animate__animated animate__bounceInUp">
+        <div  id="card-1" data-aos="flip-right" class="col-lg-4 col-md-6 col-sm-12 ms-md-auto me-md-auto animate__animated animate__bounceInUp">
             <div class="circle">
             <img src="images/justice.png" alt="img" style="width: 40px; height: 40px; margin-top: 10px; margin-left: 10px;">
         </div>
@@ -131,7 +128,7 @@
             </p>
         </div>
 
-        <div  id="card-1" class="col-lg-4 col-md-6 col-sm-12 ms-md-auto me-md-auto animate__animated animate__bounceInUp">
+        <div  id="card-1" data-aos="flip-right" class="col-lg-4 col-md-6 col-sm-12 ms-md-auto me-md-auto animate__animated animate__bounceInUp">
             <div class="circle">
             <img src="images/justice.png" alt="img" style="width: 40px; height: 40px; display: block; margin-top: 10px; margin-left: 10px;">
         </div>
@@ -141,7 +138,7 @@
             </p>
         </div>
 
-        <div  id="card-1" class="col-lg-4 col-md-6 col-sm-12 ms-md-auto me-md-auto animate__animated animate__bounceInUp">
+        <div  id="card-1" data-aos="flip-right" class="col-lg-4 col-md-6 col-sm-12 ms-md-auto me-md-auto animate__animated animate__bounceInUp">
             <div class="circle">
             <img src="images/justice.png" alt="img" style="width: 40px; height: 40px; display: block; margin-top: 10px; margin-left: 10px;">
         </div>
@@ -151,7 +148,7 @@
             </p>
         </div>
 
-        <div  id="card-1" class="col-lg-4 col-md-6 col-sm-12 ms-md-auto me-md-auto animate__animated animate__bounceInUp">
+        <div  id="card-1" data-aos="flip-right" class="col-lg-4 col-md-6 col-sm-12 ms-md-auto me-md-auto animate__animated animate__bounceInUp">
             <div class="circle">
             <img src="images/justice.png" alt="img" style="width: 40px; height: 40px; display: block; margin-top: 10px; margin-left: 10px;">
         </div>
@@ -161,7 +158,7 @@
             </p>
         </div>
 
-        <div  id="card-1" class="col-lg-4 col-md-6 col-sm-12 ms-md-auto me-md-auto animate__animated animate__bounceInUp">
+        <div  id="card-1" data-aos="flip-right" class="col-lg-4 col-md-6 col-sm-12 ms-md-auto me-md-auto ">
             <div class="circle">
             <img src="images/justice.png" alt="img" style="width: 40px; height: 40px; display: block; padding-top: 10px; margin-left: 10px;">
         </div>
@@ -184,14 +181,14 @@
 
 <div id="main4">
     <div id="main4-row1">
-        <h1> Security Consultants</h1>
+        <h1 data-aos="zoom-in"> Security Consultants</h1>
     
-        <img src="images/justice1.webp" alt="img" id="img2" class="animate__animated animate__backInLeft">
+        <img src="images/justice1.webp" alt="img" id="img2" data-aos="zoom-in" class="">
     </div>
     <div id="main4-row2">
-        <h2 class="animate__animated animate__backInRight">Justice serves</h2>
-        <p class="animate__animated animate__backInRight">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
-        <button id="btn4" class="animate__animated animate__backInRight">Read More &nbsp;&nbsp;&nbsp;&nbsp;></button>
+        <h2 class="animate__animated animate__backInRight" data-aos="zoom-in">Justice serves</h2>
+        <p class="animate__animated animate__backInRight" data-aos="zoom-in">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        <button id="btn4" class="animate__animated animate__backInRight" data-aos="zoom-in">Read More &nbsp;&nbsp;&nbsp;&nbsp;></button>
     </div>
 </div>
 
@@ -200,29 +197,29 @@
      
 
 <div id="main5">
-    <h1>Practice Area</h1>
+    <h1 data-aos="zoom-in">Practice Area</h1>
     <div id="main6">
         <div id="card-3">
            <!-- card 1 -->
             <table id="table1" class="col-lg-4 col-md-6 clo-sm-6">
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td1">01</td>
                     <th id="td3">Assets Research</th>
                 </tr>
 
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td2">></td>
                 </tr>
             </table>
             <!-- card2 -->
 
             <table id="table1" class="col-lg-4 col-md-6 clo-sm-6">
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td1">02</td>
                     <th id="td3">Assets Research</th>
                 </tr>
 
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td2">></td>
                 </tr>
             </table>
@@ -230,12 +227,12 @@
             <!-- card-3  -->
 
             <table id="table1" class="col-lg-4 col-md-6 clo-sm-6">
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td1">03</td>
                     <th id="td3">Assets Research</th>
                 </tr>
 
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td2">></td>
                 </tr>
             </table>
@@ -243,12 +240,12 @@
             <!-- card4  -->
 
             <table id="table1" class="col-lg-4 col-md-6 clo-sm-6">
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td1">04</td>
                     <th id="td3">Assets Research</th>
                 </tr>
 
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td2">></td>
                 </tr>
             </table>
@@ -257,12 +254,12 @@
             <!-- card5  -->
 
             <table id="table1" class="col-lg-4 col-md-6 clo-sm-6">
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td1">05</td>
                     <th id="td3">Assets Research</th>
                 </tr>
 
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td2">></td>
                 </tr>
             </table>
@@ -271,12 +268,12 @@
             <!-- card6 -->
 
             <table id="table1" class="col-lg-4 col-md-6 clo-sm-6">
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td1">06</td>
                     <th id="td3">Assets Research</th>
                 </tr>
 
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td2">></td>
                 </tr>
             </table>
@@ -284,12 +281,12 @@
             <!-- card7 -->
 
             <table id="table1" class="col-lg-4 col-md-6 clo-sm-6">
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td1">07</td>
                     <th id="td3">Assets Research</th>
                 </tr>
 
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td2">></td>
                 </tr>
             </table>
@@ -297,36 +294,36 @@
             <!-- card 8-->
 
             <table id="table1" class="col-lg-4 col-md-6 clo-sm-6">
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td1">08</td>
                     <th id="td3">Assets Research</th>
                 </tr>
 
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td2">></td>
                 </tr>
             </table>
 
             <!-- card 9 -->
             <table id="table1" class="col-lg-4 col-md-6 clo-sm-6">
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td1">09</td>
                     <th id="td3">Assets Research</th>
                 </tr>
 
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td2">></td>
                 </tr>
             </table>
 
             <!-- card12 -->
             <table id="table1" class="col-lg-4 col-md-6 clo-sm-6">
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td1">10</td>
                     <th id="td3">Assets Research</th>
                 </tr>
 
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td2">></td>
                 </tr>
             </table>
@@ -334,24 +331,24 @@
 
             <!-- card13 -->
             <table id="table1" class="col-lg-4 col-md-6 clo-sm-6">
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td1">11</td>
                     <th id="td3">Assets Research</th>
                 </tr>
 
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td2">></td>
                 </tr>
             </table>
 
             <!-- card14 -->
             <table id="table1" class="col-lg-4 col-md-6 clo-sm-6">
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td1">12</td>
                     <th id="td3">Assets Research</th>
                 </tr>
 
-                <tr>
+                <tr data-aos="zoom-in">
                     <td id="td2">></td>
                 </tr>
             </table>
@@ -365,10 +362,10 @@
 
 
 <div id="pre-main">
-<h1>Testimonials</h1>
+<h1 data-aos="fade-right">Testimonials</h1>
 <div id="main7">
 <div id="main8">
-    <div class="chattings1">
+    <div class="chattings1" data-aos="fade-right">
         <div class="profile">
             <img src="images/chat.webp" alt="img">
         </div>
@@ -379,7 +376,7 @@
         </div>
     </div>
 
-    <div class="chattings">
+    <div class="chattings" data-aos="fade-right">
         <div class="profile">
             <img src="images/chat.webp" alt="img">
         </div>
@@ -390,7 +387,7 @@
         </div>
     </div>
 
-    <div class="chattings">
+    <div class="chattings" data-aos="fade-right">
         <div class="profile">
             <img src="images/chat.webp" alt="img">
         </div>
@@ -403,10 +400,10 @@
 </div>
 
 <div id="main9">
-    <h2><q>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</q></h2>
+    <h2 data-aos="fade-left"><q>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</q></h2>
    <br><br>
-    <h2>— Angela Smith</h2>
-    <h3 id="he3">CEO, Co-Founder</h3>
+    <h2 data-aos="fade-left">— Angela Smith</h2>
+    <h3 id="he3 " data-aos="fade-left">CEO, Co-Founder</h3>
 </div>
 
 
@@ -422,8 +419,8 @@
 
 
 <div id="main11">
-    <div id="ul-1">
-        <ul>
+    <div id="ul-1" data-aos="fade-down">
+        <ul data-aos="fade-down">
             <li>Vitae vero perspiciatis, eveniet accusamus quam, dolores!</li>
             <li>Vitae vero perspiciatis, eveniet accusamus quam, dolores!</li>
             <li>Vitae vero perspiciatis, eveniet accusamus quam, dolores!</li>
@@ -434,8 +431,8 @@
         </ul>
     </div>
 
-    <div id="ul-2">
-        <ul>
+    <div id="ul-2" data-aos="fade-down">
+        <ul data-aos="fade-down">
             <li>Vitae vero perspiciatis, eveniet accusamus quam, dolores!</li>
             <li>Vitae vero perspiciatis, eveniet accusamus quam, dolores!</li>
             <li>Vitae vero perspiciatis, eveniet accusamus quam, dolores!</li>
@@ -446,8 +443,8 @@
         </ul>
     </div>
 
-    <div id="ul-3">
-        <ul>
+    <div id="ul-3" data-aos="fade-down">
+        <ul data-aos="fade-down">
             <li>Vitae vero perspiciatis, eveniet accusamus quam, dolores!</li>
             <li>Vitae vero perspiciatis, eveniet accusamus quam, dolores!</li>
             <li>Vitae vero perspiciatis, eveniet accusamus quam, dolores!</li>
@@ -458,8 +455,8 @@
         </ul>
     </div>
 
-    <div id="ul-4">
-        <ul>
+    <div id="ul-4" data-aos="fade-down">
+        <ul data-aos="fade-down">
             <li>Vitae vero perspiciatis, eveniet accusamus quam, dolores!</li>
             <li>Vitae vero perspiciatis, eveniet accusamus quam, dolores!</li>
             <li>Vitae vero perspiciatis, eveniet accusamus quam, dolores!</li>
@@ -479,12 +476,12 @@
 
 <div id="main12">
     <div id="main12-1">
-        <h1>Peace & order</h1>
-        <h5>A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h5>
-        <button id="btn5">Read More&nbsp;&nbsp;&nbsp;&nbsp;></button>
+        <h1 data-aos="fade-right">Peace & order</h1>
+        <h5 data-aos="fade-right">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</h5>
+        <button id="btn5" data-aos="fade-right">Read More&nbsp;&nbsp;&nbsp;&nbsp;></button>
     </div>
     <div id="main12-2">
-        <img src="images/judge img.webp" alt="img" id="img3">
+        <img src="images/judge img.webp" alt="img" id="img3" data-aos="fade-left">
     </div>
 </div>
    
@@ -502,7 +499,7 @@
 </div>
 
 
-<div class="site-footer">
+<div class="site-footer" data-aos="fade-up">
     <div class="container">
     <div class="row">
     <div class="col-lg-4">
@@ -554,7 +551,9 @@
 <div id="last-footer">Copyright ©2024 All rights reserved | This template is made with  by Colorlib</div>
 
 
-
+<script>
+    AOS.init();
+  </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
